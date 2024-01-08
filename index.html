@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <form action="" id="sfrm">
+    <div class="info">
+      <label for="Book_name">Book Name:</label><br>
+      <input type="text" id="Book_name"><br>
+    </div>
+    <div class="info">
+      <label for="Author_name">Author Name:</label><br>
+      <input type="text" id="Author_name"><br>
+    </div>
+    <div class="info">
+      <label for="Page_num">Page number:</label><br>
+      <input type="number" id="Page_num">
+    </div>
+    <div class="info rad">
+      <h3>Read</h3>
+      <div>
+        <input type="radio" id="child" name="ticket_type" value="Yes">
+        <label for="child">Yes</label>
+      </div>
+      <div>
+        <input type="radio" id="adult" name="ticket_type" value="No">
+        <label for="adult">No</label>
+      </div>
+    </div>
+    <button type="submit" class="submit">Submit</button>
+  </form>
+  <div class="title">
+    <h1 class="library">Book Library</h1>
+    <button class="plus" id="plb">Add</button>
+    <!-- <button class="plus1" id="sign_in">Log In</button> -->
+  </div>
+  <div class="lib" id="library">
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
