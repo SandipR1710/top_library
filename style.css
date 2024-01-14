@@ -86,3 +86,13 @@ form{
    height:25px;
    border:0;
 }
+@media (max-width:600px) {
+    .library {
+        font-size: 30px;
+    }
+    .lib{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
